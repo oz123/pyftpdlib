@@ -28,7 +28,8 @@ since they are a good workaround for avoiding DoS attacks.
 `source code <https://github.com/giampaolo/pyftpdlib/blob/master/demo/basic_ftpd.py>`__
 
 .. code-block:: python
-
+    
+    import os
     from pyftpdlib.authorizers import DummyAuthorizer
     from pyftpdlib.handlers import FTPHandler
     from pyftpdlib.servers import FTPServer
